@@ -1,3 +1,3 @@
 db.tracks.find(
-    {duration_secs: {$lte: 1000000}}
+    {duration_secs: {$lte: 1e6}}
 );
